@@ -7,9 +7,21 @@
 body {
   margin: 0;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(255, 185, 105);
 }
 .container {
   max-width: 800px;
   margin-inline: auto;
-  align-items: center;
+  text-align: center;
+}
+.navbar-container {
+  background-color: brown;
+}
+.navbar-container ul {
+  list-style: none;
+}
+.footer-container {
+  background-color: black;
+  color: white;
+  text-align: center;
 }
